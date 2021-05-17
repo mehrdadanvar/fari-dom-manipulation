@@ -1,15 +1,27 @@
+@font-face {
+  font-family: mehrdad;
+  src: url("/mehrdad.TTF");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
+  font-family: mehrdad;
   margin: 0;
   padding: 0;
   text-align: right;
-  font-size: large;
+  font-size: small;
+  color: #333;
 }
 
 table,
 th,
 td {
   border: 1px solid black;
+  text-align: center;
 }
 table {
-  width: 100%;
+  width: 80%;
+}
+p {
+  font-family: mehrdad;
 }
